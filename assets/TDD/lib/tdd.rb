@@ -75,9 +75,8 @@ def towers_of_hanoi(discs = [[3, 2, 1], [], []])
       puts "Git gud doofus!"
       retry
     end
-
-    puts "Winner Winner Chicken Dinner!"
   end
+  puts "Winner Winner Chicken Dinner!"
 end
 
 def display(discs)
@@ -103,4 +102,4 @@ def mvs(arr)
   return arr.find_index(arr[1..-1].max)
 end
 
-towers_of_hanoi
+# towers_of_hanoi
